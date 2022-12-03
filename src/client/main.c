@@ -1706,6 +1706,8 @@ static void CL_PlaySound_c(genctx_t *ctx, int state)
 
 static void CL_PlaySound_f(void)
 {
+    return;
+
     int     i;
     char name[MAX_QPATH];
 
